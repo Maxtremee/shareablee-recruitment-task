@@ -1,0 +1,65 @@
+.wrapper {
+  min-width: 50%;
+  border: 1px solid grey;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+header {
+  background-color: #DCDCDC;
+  padding: 10px
+}
+
+footer {
+  border-top: 1px solid black;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+button {
+  width: 20%;
+  margin: 15px;
+  border: 0;
+  background: none;
+  border-radius: 0px;
+  box-shadow: none;
+  padding: 10px
+}
+
+.button-ok {
+  background-color: black;
+  color: white;
+}
+
+.button-cancel {
+  background-color: white;
+  color: grey;
+  border: 1px solid black;
+  border-radius: 1px;
+}
+
+.row {
+  margin-top: 10px;
+  height: 45px;
+}
+
+.form-content {
+  margin: 20px;
+}
+
+.label {
+  width: 25%;
+  padding: 5px;
+  display: inline-block;
+}
+
+.content {
+  width: 65%;
+  padding: 10px;
+  display: inline-block;
+}
+
+input {
+  padding: 10px
+}
